@@ -148,7 +148,7 @@ class Paths
 
 	inline static function getLibraryPathForce(file:String, library:String)
 	{
-		var returnPath = '$library:assets/$library/$file';
+		var returnPath = 'assets/$library/$file';
 		return returnPath;
 	}
 
